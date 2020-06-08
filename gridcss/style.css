@@ -9,30 +9,35 @@
 body {
 	font-family: sans-serif;
 	color: white;
+	background: center top url(https://free4kwallpapers.com/uploads/originals/2020/05/19/forest-trees-wallpaper.jpg) fixed;
 }
 
 header {
 	line-height: 15em;
 	text-align: center;
 	background: #333;
+	opacity: 0.6;
 }
 
 article {
 	line-height: 20em;
 	text-align: center;
 	background: #666;
+	opacity: 0.6;
 }
 
 aside {
 	line-height: 20em;
 	text-align: center;
 	background: #999;
+	opacity: 0.6;
 }
 
 footer {
 	line-height: 15em;
 	text-align: center;
 	background: #BBB;
+	opacity: 0.3;
 }
 
  
