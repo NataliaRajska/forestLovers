@@ -13,10 +13,13 @@ body {
 }
 
 header {
-	line-height: 15em;
+	line-height: 3em;
 	text-align: center;
 	background: #333;
 	opacity: 0.6;
+	font-family: "URW Chancery L";
+	font-size: 5em;
+
 }
 
 article {
@@ -38,6 +41,8 @@ footer {
 	text-align: center;
 	background: #BBB;
 	opacity: 0.3;
+	position: static;
+	text-orientation: unset;
 }
 
  
