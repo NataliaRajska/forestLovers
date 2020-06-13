@@ -1,0 +1,94 @@
+/* cropping background when resizing horizontally */
+/* changing proportions when resizing vertically */
+/*  */
+html {
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-gloy-01a-l_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=800&s=b8e8bde0f246d66d14ed9d8da0789175) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    /* color: whitesmoke; */
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+}
+
+h1 {
+    color: #2f4f4f;
+}
+
+label {
+    text-transform: uppercase;
+    color: #ffa600;
+    text-shadow: 3px 4px 7px #000000;
+    animation: shine 1s infinite alternate;
+}
+
+@keyframes shine {
+    from {color: #95a199
+    }
+    to {color: rgb(114, 137, 114);}
+}
+
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(132, 93, 101);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: rgb(179, 198, 233);
+    color: rgb(7, 4, 4);
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.7;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    margin-top: 25px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 1;
+    color: white;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 5px 5px;
+    background-color: #db8c67;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    /* border-radius: 20px; */
+}
+
+/* Add padding to containers */
+.container {
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    margin: 20px auto auto auto;
+    width: 285px;
+    padding: 10px;
+    padding-bottom: 20px;
+    /* border: solid; */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.password {
+    color: rgba(234, 37, 51, 0.59);
+}
