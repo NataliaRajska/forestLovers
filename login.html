@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUEST STORE</title>
+    <!-- add icon link -->
+    <link rel="icon" href="https://cdn3.vectorstock.com/i/1000x1000/25/02/leaves-icons-leaf-icon-with-long-shadow-on-green-vector-21002502.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="gridcss/login.css">
+</head>
+<body>
+<div class="imgcontainer">
+    <h1>Quest Store</h1>
+</div>
+<form name="myForm" class="container">
+    <label for="uname"><b>Username</b></label>
+    <input onmousedown="apollo.play()" id="username" type="email" placeholder="Enter Email Address" required>
+    <br/>
+    <label for="psw"><b>Password </b></label>
+    <input id="password" type="password" placeholder="Enter Password" pattern>
+    <br/>
+    <button id="submit" onclick="subPages()">Login</button>
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="password">Forgot <a href="#" class="password">password?</a></span>
+</form>
+<script src="js/login.js"></script>
+</body>
+</html>
