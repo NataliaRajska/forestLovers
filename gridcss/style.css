@@ -9,14 +9,18 @@
 body {
 	font-family: sans-serif;
 	color: white;
-	background: center top url(https://free4kwallpapers.com/uploads/originals/2020/05/19/forest-trees-wallpaper.jpg) fixed;
+	background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-gloy-01a-l_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=800&s=b8e8bde0f246d66d14ed9d8da0789175);
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
 header {
 	line-height: 3em;
 	text-align: center;
 	background: #333;
-	opacity: 0.6;
 	font-family: "URW Chancery L";
 	font-size: 5em;
 
@@ -25,24 +29,21 @@ header {
 article {
 	line-height: 20em;
 	text-align: center;
-	background: #666;
-	opacity: 0.6;
+	background: #333;
 }
 
 aside {
 	line-height: 20em;
 	text-align: center;
-	background: #999;
-	opacity: 0.6;
+	background: #333;
 }
 
 footer {
 	line-height: 15em;
 	text-align: center;
 	background: #BBB;
-	opacity: 0.3;
 	position: static;
 	text-orientation: unset;
 }
 
- 
+
