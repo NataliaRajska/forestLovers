@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-    color: #2f4f4f;
+    color: #497979;
 }
 
 label {
@@ -91,4 +91,18 @@ button:hover {
 
 .password {
     color: rgba(234, 37, 51, 0.59);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*background-color: (#ce6f6f, 1);*/
+    text-align: center;
+    padding: .2em;
+    opacity: .7;
+    color: #52bac1;
+    font-size: large;
+    font-style: oblique;
 }

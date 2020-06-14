@@ -10,3 +10,16 @@ function subPages(){
         location.href = "codecooler/codecooler.html";
     }
 }
+
+const birds = new Audio();
+birds.src = "resources/birds.mp3"
+
+//hamburger responsive
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
