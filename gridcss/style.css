@@ -28,15 +28,24 @@ header {
 article {
 	line-height: 20em;
 	text-align: center;
-	background: #333;
 }
 
 aside {
-	line-height: 20em;
+	width: 50%;
+	opacity: 1;
+	text-align: justify;
+	text-justify: distribute;
 	text-align: center;
-	background: #333;
+	font-size: large;
+	color: #497979;
+	padding: 0 1em 0;
 }
 
+#bird {
+	width: 40%;
+	left: 0;
+	text-align: left;
+}
 
 
 /* nav bar*/
