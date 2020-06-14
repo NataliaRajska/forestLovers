@@ -16,6 +16,7 @@
 </head>
 <body>
 <div onmousedown="birds.play()" class="container row">
+
     <header role="banner" class="row">
         Quest Store - Creep menu
     </header>
@@ -34,16 +35,49 @@
         </a>
     </div>
 
-
     <main role="main" class="row gutters">
         <article class="col span_9">
-            CODECOOLER
+            <h1>Classes</h1><br>
+            <h2>On this page you can add classes</h2>
+            <hr>
+            <hr>
+            <table>
+                <th>CLASS</th>
+                <th>MENTOR</th>
+                </tr>
+                <td class="">basic</td>
+                <td>Marcin Izworski</td>
+                </tr>
+                <td>java</td>
+                <td>Adrian Widłak</td>
+                </tr>
+                <td>web</td>
+                <td>Adam Romanowski</td>
+                </tr>
+            </table>
+
+            <form action="#" onsubmit="addClass()">
+                <h2>Add new class:</h2>
+                <label for="name">Class name:</label>
+                <input type="text" name="name" id="name" required>
+                <hr>
+                <label for="mentor">Mentor:</label>
+
+                <select name="mentor" id="mentor_select">
+                    <option value="Marcin Izworski">Marcin Izworski</option>
+                    <option value="Adrian Widłak">Adrian Widłak</option>
+                    <option value="Adam Romanowski">Adam Romanowski</option>
+                </select>
+                <hr>
+                <input type="submit" value="Add class">
+            </form>
         </article>
+
         <aside role="complimentary" class="col span_3">
             <br>
             <a>Hi !  <br><br> You're on your <br>manager's page<br><br>Let's have a fun<br><br>
                 <strong>Good luck</strong><br> <br>
-                <img id="bird" src="resources/largeBirdfreebie.png"></a>
+                <img id="bird" src="../resources/images/bird.png"></a>
         </aside>
 
         <footer>
