@@ -24,12 +24,6 @@ header {
 	font-size: 2em;
 }
 
-
-article {
-	line-height: 20em;
-	text-align: center;
-}
-
 aside {
 	width: 50%;
 	opacity: 1;
@@ -146,4 +140,33 @@ footer {
 	color: #52bac1;
 	font-size: large;
 	font-style: oblique;
+}
+
+
+/*ONLY FOR ABOUT US PAGE*/
+
+
+article {
+	color: #497979;
+	font-size: large;
+}
+
+h1 {
+	font-size: inherit;
+}
+
+h2 {
+	text-align: center;
+	color: #07312e;
+}
+.card {
+	color: #034040;
+	font-size: small;
+	text-align: center;
+}
+.title {
+	background-color:  rgba(232, 198, 198, 0.5);
+	radius: 50%;
+	color: #497979;
+	text-align: center;
 }
