@@ -1,3 +1,6 @@
+
+const birds = new Audio("resources/birds.mp3");
+
 function subPages(){
     var username = (document.getElementById("username").value);
     var password = (document.getElementById("password").value);
@@ -11,9 +14,6 @@ function subPages(){
     }
 }
 
-const birds = new Audio();
-birds.src = "resources/birds.mp3"
-
 //hamburger responsive
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -23,3 +23,9 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+(() => {
+    document.getElementById('submit').addEventListener("click", () => subPages());
+
+})();
+
