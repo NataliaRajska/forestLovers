@@ -23,3 +23,23 @@
 .topnav {
     justify-content: space-around
 }
+
+.article {
+    flex: 3;
+}
+
+.aside {
+    flex: 1;
+}
+
+.img-logo {
+    height: 3rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    font-size: 1rem;
+}
