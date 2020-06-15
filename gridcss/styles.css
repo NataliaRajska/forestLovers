@@ -1,0 +1,25 @@
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-center {
+    margin: 0 auto;
+}
+
+.main-container {
+    max-width: 800px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.topnav {
+    justify-content: space-around
+}
