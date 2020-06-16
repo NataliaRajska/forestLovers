@@ -11,103 +11,81 @@
           type="image/x-icon">
     <meta name="keywords" content="login, quest, store, cms, mentor, creep, play"/>
     <title>Quest Store</title>
-    <link rel="stylesheet" media="all" href="gridcss/style.css"/>
+    <link rel="stylesheet" media="all" href="gridcss/styles.css"/>
     <script type="text/javascript" src="js/login.js" defer></script>
 </head>
 <body>
-<div onmousedown="birds.play()" class="container row">
+<div class="flex-col h-center main-container">
     <header role="banner" class="row">
         Quest Store - Creep menu
     </header>
 
-
-    <div class="topnav row" id="myTopnav">
+    <div class="flex-row w-100 topnav" id="myTopnav">
         <a href="login.html" class="active">BACK TO LOGIN PAGE</a>
         <a href="creep/class.html">Class</a>
         <a href="creep/mentorEdit.html">Mentor</a>
         <a href="creep/level.html">Level</a>
         <a href="creep.html">About us</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <div class="bar">---</div>
-            <div class="bar">---</div>
-            <div class="bar">---</div>
+        <a href="javascript:void(0);" class="menu-bar-wrapper" onclick="myFunction()">
+            <img class="menu-bar-img" alt="bar" src="resources/images/bar.png">
         </a>
     </div>
 
+    <main role="main" class="flex-row main">
+        <article class="article flex-col">
 
-    <main role="main" class="row gutters">
-        <article class="col span_9">
-            <div class="row gutters"><br>
-                <h1 style="text-align:center">We are
-                <img src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/dhaswc9fkhzlkw6n6lz7" width="20%">
-                    students ! </h1>
-            <br>
-            <hr>
-
+            <div class="flex-row">
+                <p class="text">We are</p>
+                <img class="img-logo" src="resources/images/logo.png" >
+                <p class="text">students !</p>
             </div>
+
             <h2>Our Team</h2>
-            <hr>
-            <div class="row gutters">
-                <div class="col span_4">
-                    <div class="card">
-                        <img src="resources/images/team1.jpg" alt="Natalia" style="width:100%">
-                        <div class="container">
-                            <h2>Natalia Rajska</h2>
-                            <p class="title">>> Designer <<</p>
-                            <p style="text-align:center"> The team brain <br>
-                            <a href = "mailto:abc@example.com?subject = Feedback&body = Message">
-                                e-mail
-                            </a></p>
-                        </div>
-                    </div>
+
+            <div class="flex-row">
+
+                <div class="flex-col">
+                    <img class="img" src="resources/images/team1.jpg" alt="Natalia">
+                    <h2>Natalia Rajska</h2>
+                    <p class="title">>> Designer <<</p>
+                    <p style="text-align:center"> The team brain </p>
+                    <a href = "mailto:abc@example.com?subject = Feedback&body = Message">e-mail</a>
                 </div>
 
-                <div class="col span_4">
-                    <div class="card">
-                        <img src="resources/images/team2.jpg" alt="Stanisław" style="width:100%">
-                        <div class="container">
-                            <h2>Stanisław Chynek</h2>
-                            <p class="title">>> Java Director <<</p>
-                            <p style="text-align:center">Zen master <br>
-                            <a href = "mailto:abc@example.com?subject = Feedback&body = Message">
-                                e-mail
-                            </a></p>
-                        </div>
-                    </div>
+                <div class="flex-col">
+                    <img class="img" src="resources/images/team2.jpg" alt="Stanisław">
+                    <h2>Stanisław Chynek</h2>
+                    <p class="title">>> Java Director <<</p>
+                    <p style="text-align:center">Zen master</p>
+                    <a href = "mailto:abc@example.com?subject = Feedback&body = Message">e-mail</a>
                 </div>
 
-                <div class="col span_4">
-                    <div class="card">
-                        <img src="resources/images/team3.jpg" alt="Krzysztof" style="width:100%">
-                        <div class="container">
-                            <h2>Krzysztof Niźnik</h2>
-                            <p class="title">>> Back-end master <<</p>
-                            <p style="text-align:center">Heart of the team. <br>
-                            <a href = "mailto:abc@example.com?subject = Feedback&body = Message">
-                                e-mail
-                            </a></p>
-                        </div>
-                    </div>
+                <div class="flex-col">
+                    <img class="img" src="resources/images/team3.jpg" alt="Krzysztof">
+                    <h2>Krzysztof Niźnik</h2>
+                    <p class="title">>> Back-end master <<</p>
+                    <p style="text-align:center">Heart of the team.</p>
+                    <a href = "mailto:abc@example.com?subject = Feedback&body = Message">e-mail</a>
                 </div>
             </div>
-            <hr>
     </article>
-        <aside role="complimentary" class="col span_3">
-            <br>
-
-            <a>Hi !  <br><hr><hr><br> You're on your <br>manager's page<br><br><hr><hr><br>Let's have a fun<br><br><hr><hr>
-                <strong>Good luck</strong><br><br>
-                <img id="bird" src="resources/images/bird.png"></a>
-
-        </aside>
-        <footer>
-            <div class="text-row">
-                <a>legal information </a>|
-                <a>all rights reserved &copy; Natalia Rajska, Stanisław Chynek, Krzysztof Niźnik 2020</a>
+        <aside role="complimentary" class="aside">
+            <a class="aside-item">Hi</a>
+            <a class="aside-item">You're on your manager's page</a>
+            <a class="aside-item">Let's have a fun</a>
+            <div class="aside-item">
+                <p>Good luck</p>
+                <p>obrazek</p>
             </div>
-        </footer>
+<!--        <img id="bird" src="resources/images/bird.png"></a>-->
+        </aside>
     </main>
 </div>
+
+<footer class="footer">
+    <a>legal information </a>|
+    <a>all rights reserved &copy; Natalia Rajska, Stanisław Chynek, Krzysztof Niźnik 2020</a>
+</footer>
 
 </body>
 </html>
