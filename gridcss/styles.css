@@ -61,3 +61,11 @@
         display: none;
     }
 }
+
+.aside-item {
+    display: block;
+    text-align: center;
+    padding: 1.6rem 0;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+}
