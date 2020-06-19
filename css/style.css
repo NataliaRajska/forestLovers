@@ -69,7 +69,7 @@
     text-align: center;
     padding: 1.6rem 0;
     border-width: 0 0 1px 0;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 /* Without Adam style */
 
@@ -89,3 +89,4 @@ html {
     font-size: 1em;
     font-family: 'Bree Serif', serif;
 }
+
