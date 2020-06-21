@@ -40,6 +40,8 @@
 .aside {
     flex: 1;
     border-left: darkcyan;
+    opacity: 1;
+
 }
 
 @media screen and (max-width: 960px) {
@@ -142,6 +144,7 @@ html {
     background-color: darkcyan;
     justify-content: space-around;
     border-top-left-radius: 15px;
+    left: 0;
 }
 
 .topnav a {
