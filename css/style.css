@@ -9,7 +9,10 @@
 .h3 {
     padding: 0 2em;
 }
-
+.flex {
+    display: flex;
+    flex-direction: row;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -59,8 +62,8 @@
 }
 
 .img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
 }
 
@@ -73,6 +76,7 @@
 .footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
 }
@@ -91,8 +95,9 @@
     display: block;
     text-align: center;
     padding: 1.6rem 0;
-    border-width: 0 0 1px 0;
-    /*border-style: solid;*/
+    border-style: solid;
+    width: 80%;
+    height: 20%;
 }
 /* Without Adam style */
 
@@ -115,10 +120,18 @@ html {
 
 .media33 {
     width: 33%;
+    margin-inside: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
+    .flex-row {
+    display: block;
+    }
     .media33 {
-    flex-wrap: wrap;
+        width: 100%;
+    }
+    .footer {
+        padding: 0.5em;
+        font-size: xx-small;
     }
 }
 
