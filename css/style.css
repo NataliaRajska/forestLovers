@@ -3,13 +3,6 @@
     flex-direction: column;
     border-width: 1px;
     border-style: solid;
-    width: 30%;
-}
-
-@media screen and (max-width: 310px) {
-    .flex-col {
-        flex-wrap: wrap;
-    }
 }
 
 .h3 {
@@ -122,5 +115,14 @@ html {
     /* color: whitesmoke; */
     font-size: 1em;
     font-family: 'Bree Serif', serif;
+}
+
+.media33 {
+    width: 33%;
+}
+@media screen and (max-width: 320px) {
+    .media33 {
+    flex-wrap: wrap;
+    }
 }
 
