@@ -1,13 +1,19 @@
 .flex-col {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    width: 30%;
 }
 
 @media screen and (max-width: 310px) {
     .flex-col {
         flex-wrap: wrap;
     }
+}
+
+.h3 {
+    padding: 0 2em;
 }
 
 .flex-row {
@@ -23,6 +29,8 @@
 .main-container {
     max-width: 800px;
     height: 96%;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .w-100 {
@@ -37,10 +45,15 @@
 
 .article {
     flex: 3;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .aside {
     flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    width: 10%;
 }
 
 @media screen and (max-width: 960px) {
@@ -55,8 +68,9 @@
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
 
 .text {
