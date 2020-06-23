@@ -16,37 +16,40 @@ h1 {
 
 label {
     text-transform: uppercase;
-    text-shadow: 3px 4px 7px #000000;
-    animation: shine 1s infinite alternate;
+    text-shadow: 0.2em 0.2em 0.4em #000000;
+    animation: shine 2s infinite alternate;
 }
 
 @keyframes shine {
-    from {color: #95a199
+    from {color: rgb(155, 191, 155);
     }
-    to {color: rgb(114, 137, 114);}
+    to {color: rgb(114, 137, 114);
+    }
 }
 
 
 input[type=email], input[type=password] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
     display: inline-block;
-    border: 1px solid rgb(132, 93, 101);
+    border: 0.06em solid rgb(132, 93, 101);
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 1.25em;
 }
 
 /* Set a style for all buttons */
 button {
     color: rgb(74, 115, 104);
-    padding: 5px 5px;
-    margin: 8px 0;
+    font-weight: inherit;
+    padding: 0.31em 0.31em;
+    margin: 0.5em 0;
     border: none;
     cursor: pointer;
     width: 100%;
     font-size: large;
-    margin-top: 25px;
+    margin-top: 1.6em;
+    border-radius: 0.31em;
 }
 
 /* Add a hover effect for buttons */
@@ -58,28 +61,26 @@ button:hover {
 /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
-    /*padding: 5px 5px;*/
     background-color: rgb(250, 213, 202);
-    margin-left: 10px;
-    border-radius: 5px;
+    margin-left: 0.6em;
+    border-radius: 0.3em;
 }
 
 /* Add padding to containers */
 .container {
-    /* margin-left: 20%;
-    margin-right: 20%; */
-    margin: 20px auto auto auto;
+
+    margin: 1.25em auto;
     width: 285px;
-    padding: 10px;
-    padding-bottom: 20px;
-    /* border: solid; */
-    border-radius: 20px;
+    padding: 0.9em;
+    padding-bottom: 1.25em;
+    border-radius: 1em 2em 1em 2em;
     background-color: rgb(74, 115, 104);
 
 }
 
 .password {
     color: rgb(250, 213, 202);
+    font-size: small;
 }
 
 footer {
@@ -90,6 +91,6 @@ footer {
     text-align: center;
     padding: .2em;
     opacity: .7;
-    font-size: xx-small;
+    font-size: x-small;
     font-style: oblique;
 }
