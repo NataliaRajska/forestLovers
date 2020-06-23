@@ -1,0 +1,90 @@
+html {
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-gloy-01a-l_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=800&s=b8e8bde0f246d66d14ed9d8da0789175) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #497979;
+}
+
+label {
+    text-transform: uppercase;
+    text-shadow: 3px 4px 7px #000000;
+    animation: shine 1s infinite alternate;
+}
+
+
+@keyframes shine {
+    from {color: #95a199
+    }
+    to {color: rgb(114, 137, 114);}
+}
+
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid rgb(132, 93, 101);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+    color: rgb(74, 115, 104);
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+    margin-top: 25px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 1;
+    color: #725757;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    background-color: rgb(250, 213, 202);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* Add padding to containers */
+.container {
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(74, 115, 104);
+
+}
+
+.password {
+    color: rgb(250, 213, 202);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .2em;
+    opacity: .7;
+    font-size: xx-small;
+    font-style: oblique;
+}
