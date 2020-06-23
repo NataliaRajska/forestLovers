@@ -6,13 +6,14 @@ html {
     background-size: cover;
     text-align: center;
     font-weight: bold;
-    font-size: x-large;
+    font-size: small;
     font-family: 'Quicksand', sans-serif;
     color: #fad5ca;
 }
 h1 {
     color: #497979;
 }
+
 
 label {
     text-transform: uppercase;
@@ -33,7 +34,7 @@ input[type=email], input[type=password] {
     padding: 0.75em 1.25em;
     margin: 0.5em 0;
     display: inline-block;
-    border: 0.06em solid rgb(132, 93, 101);
+    border: solid rgb(114, 137, 114);
     box-sizing: border-box;
     border-radius: 1.25em;
 }
@@ -66,13 +67,24 @@ button:hover {
 /* Add padding to containers */
 .container {
     margin: 1em auto;
-    width: 550px;
+    width: 50%;
     padding: 1.5em;
     padding-bottom: 1.25em;
-    border-radius: 1em 2em 1em 2em;
+    border-radius: 1em 4em 1em 4em;
     background-color: rgb(74, 115, 104);
 }
 
+@media screen and (min-width: 1100px) {
+    .container {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        width: 25%;
+    }
+}
 .password {
     color: rgb(250, 213, 202);
     font-size: small;
