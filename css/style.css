@@ -16,7 +16,7 @@
 .flex-row {
     display: flex;
     flex-direction: row;
-    border-radius: 15px 50px 0px 0px;
+    border-radius: 1em 3.4em 0 0;
 }
 
 .h-center {
@@ -24,14 +24,10 @@
 }
 
 .main-container {
-    max-width: 960px;
-    min-width: 400px;
+    max-width: 50em;
+    min-width: 20em;
+    padding-bottom: 1em;
 }
-
-/*.w-100 {*/
-/*    width: 100%;*/
-/*}*/
-
 
 .article {
     flex: 3;
@@ -47,18 +43,18 @@
     }
 }
 
-.img-logo {
-    height: 4.8rem;
+.img-logo-codecool {
+    height: 4.8em;
 }
 
 .img {
-    width: 200px;
-    height: 200px;
+    width: 12em;
+    height: 12em;
     margin: 0 auto;
 }
 
 .text {
-    font-size: 1rem;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -70,20 +66,13 @@
     text-align: center;
 }
 
-.menu-bar-img {
-    width: 40px;
-    height: 40px;
-}
-
 .aside-item {
     display: block;
     text-align: center;
-    padding: 2.3rem;
+    padding: 2.3em;
     width: 80%;
     height: 20%;
 }
-
-/* Without Adam style */
 
 .header {
     text-align: center;
@@ -103,13 +92,13 @@ html {
 
 .media33 {
     width: 33%;
-    margin-inside: 10px;
+    padding-bottom: 2em;
 }
 
 @media screen and (max-width: 800px) {
     .flex-row {
         display: block;
-        border-radius: 15px 15px 0 0;
+        border-radius: 1em 1em 0 0;
     }
 
     .media33 {
@@ -123,15 +112,15 @@ html {
 }
 
 #bird {
-    width: 40px;
-    height: 40px;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 .topnav {
     overflow: hidden;
     background-color: darkcyan;
     justify-content: space-around;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 1em;
     left: 0;
 }
 
@@ -140,9 +129,9 @@ html {
     display: block;
     color: #fad5ca;
     text-align: center;
-    padding: 14px 16px;
+    padding:  0.8em 1em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .topnav a:hover {
@@ -192,10 +181,9 @@ html {
 .main {
     background-color: #fad5ca;
     opacity: 0.8;
-    border-radius: 0px 0px 15px 50px;
+    border-radius: 0 0 1em 3.4em;
 }
 
-
-th {
-    color: darkcyan;
-}
+/*th {*/
+/*    color: darkcyan;*/
+/*}*/
