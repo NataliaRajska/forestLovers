@@ -33,10 +33,16 @@
             <h1>Experience levels</h1><br>
             <label>Add how many coolcoins a student have to gain, to reach new level </label> <br> <br>
             <div class="level">
-                <p style="text-align: center">LEVEL 1 : <input type="number" onchange="determineNextLvlMin(1); determineThisLvlUpperLimitMinimum(1)">-> coolcoins</p>
-                <p style="text-align: center">LEVEL 2 : <input type="number" onchange="determineNextLvlMin(2); determineThisLvlUpperLimitMinimum(2)">-> coolcoins</p>
-                <p style="text-align: center">LEVEL 3 : <input type="number" onchange="determineNextLvlMin(3); determineThisLvlUpperLimitMinimum(3)">-> coolcoins</p>
-                <p style="text-align: center">LEVEL 4 : <input type="number" onchange="determineNextLvlMin(4); determineThisLvlUpperLimitMinimum(4)">-> coolcoins</p> <br>
+
+                <input type="number"  onchange="createNextLvlMin(1); createUpMinLevel(1)">
+
+
+
+                <p style="text-align: center">LEVEL 1 : <input type="number" name="level1_limit" id="level1_limit" onchange="createNextLvlMin(1); createUpMinLevel(1)"> coolcoins</p>
+                <p style="text-align: center">LEVEL 2 : <input type="number" name="level2_limit" id="level2_limit" onchange="createNextLvlMin(2); createUpMinLevel(2)"> coolcoins</p>
+                <p style="text-align: center">LEVEL 3 : <input type="number" name="level3_limit" id="level3_limit" onchange="createNextLvlMin(3); createUpMinLevel(3)"> coolcoins</p>
+                <p style="text-align: center">LEVEL 4 : <input type="number" name="level4_limit" id="level4_limit" onchange="createNextLvlMin(4); createUpMinLevel(4)"> coolcoins</p> <br>
+
                 <button type="submit">SAVE</button> <button type="button" class="cancelbtn">Cancel</button>
             </div>
         </article>
@@ -48,9 +54,6 @@
         </aside>
     </main>
 </div>
-<div class="push"></div>
-</div>
-
 <footer class="footer">
     <a>legal information </a>|
     <a>all rights reserved &copy; Natalia Rajska, Stanisław Chynek, Krzysztof Niźnik 2020</a>
@@ -58,3 +61,6 @@
 
 </body>
 </html>
+
+
+

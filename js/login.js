@@ -37,11 +37,24 @@ function addClass() {
     const newMentor = document.createElement("td");
     const newClassName = document.createElement("td");
 
-    newMentor.innerHTML = document.getElementById("mentor_select").value;
+    newMentor.innerHTML = document.getElementById("choose_mentor").value;
     newClassName.innerHTML = document.getElementById("class_name").value;
 
     newClass.appendChild(newClassName);
     newClass.appendChild(newMentor);
 
     classesTable.appendChild(newClass);
+}
+
+function createNextLvlMin(thisLevel) {
+    const nextLevel = 1 + thisLevel;
+    const nextLevelMax = document.getElementById("level" + thisLevel + "_limit");
+    const nextLevelMin = document.getElementById("level" + nextLevel + "_min");
+
+    nextLevelMin.innerHTML = parseInt(nextLevelMax.value) + 1;
+}
+
+function createUpMinLevel(thisLevel) {
+    const newLevelMin = parseInt(document.getElementById("level" + thisLevel + "_min").innerHTML);
+    document.getElementById("level" + thisLevel + "_limit").min = newLevelMin + 1;
 }
