@@ -28,6 +28,9 @@ label {
     }
 }
 
+input:focus {
+    outline: none;
+}
 
 input[type=email], input[type=password] {
     width: 100%;
@@ -72,19 +75,15 @@ button:hover {
     padding-bottom: 1.25em;
     border-radius: 1em 4em 1em 4em;
     background-color: rgb(74, 115, 104);
+    max-width: 350px;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (max-width: 375px){
     .container {
-        width: 35%;
-    }
+         margin: 0.5em auto;
+         width: auto;}
 }
 
-@media screen and (min-width: 1600px) {
-    .container {
-        width: 25%;
-    }
-}
 .password {
     color: rgb(250, 213, 202);
     font-size: small;
