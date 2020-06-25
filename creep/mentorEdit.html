@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Quest Store</title>
     <link rel="stylesheet" media="all" href="../css/style.css"/>
-    <script type="text/javascript" src="../js/login.js" defer></script>
+    <script type="text/javascript" src="../js/student.js" defer></script>
 </head>
 <body>
 <div class="h-center main-container">
@@ -30,20 +30,19 @@
 
     <main role="main" class="flex main">
         <article class="article flex-col">
-            <h3>Mentor list:</h3>
-            <table>
-                <th>CLASS</th>
-                <th>MENTOR</th>
+            <h3>Students list:</h3>
+            <table class="students">
+                <thead class="thead">
+                <tr>
+                    <th>ID</th>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>LOGIN</th>
+                    <th>E-MAIL</th>
                 </tr>
-                <td class="">basic</td>
-                <td>Marcin Izworski</td>
-                </tr>
-                <td>java</td>
-                <td>Adrian Widłak</td>
-                </tr>
-                <td>web</td>
-                <td>Adam Romanowski</td>
-                </tr>
+                </thead>
+                <tbody class="tbody">
+                </tbody>
             </table>
         </article>
         <aside role="complimentary" class="aside">
