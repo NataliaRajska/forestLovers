@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE HTML>
 
 <html>
@@ -8,8 +10,9 @@
     <meta name="keywords" content="login, quest, store, cms, mentor, creep, play"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Quest Store</title>
-    <link rel="stylesheet" media="all" href="css/style.css"/>
-    <script type="text/javascript" src="js/login.js" defer></script>
+    <link rel="stylesheet" media="all" href="../css/style.css"/>
+    <link rel="stylesheet" media="all" href="../css/table.css"/>
+    <script type="text/javascript" src="../js/student.js" defer></script>
 </head>
 <body>
 <div class="h-center main-container">
@@ -18,49 +21,50 @@
     </header>
 
     <div class="flex-row w-100 topnav" id="myTopnav">
-        <a href="main.html" class="active">MAIN PAGE</a>
+        <a href="../main.html" class="active">BACK TO MAIN PAGE</a>
+        <a href="studentEdit.html">Students</a>
+        <a href="../creep/mentorEdit.html">Mentors</a>
+<!--        <a href="../creep/level.html">Level</a>-->
+        <a href="../creep.html">About us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </div>
 
     <main role="main" class="flex main">
         <article class="article flex-col">
 
             <div class="h-center flex">
-                <h2>Welcome in</h2>
-                <img class="img-logo-codecool" src="resources/images/logo.png" >
-                <h2>!</h2>
+                <h2>List of</h2>
+                <img class="img-logo-codecool" src="../resources/images/logo.png" >
+                <h2>students !</h2>
             </div>
 
+<!--            <h4>Our Team:</h4>-->
+
             <div class="flex-row">
-                <div class="flex-col media33">
-                    <img class="img" src="resources/images/team3.jpg" alt="Natalia">
-                    <h3>SING IN</h3>
-                    <a href="login.html">click here!</a>
-                </div>
-
-                <div class="flex-col media33">
-                    <img class="img" src="resources/images/team2.jpg" alt="Stanisław">
-                    <h3>SING UP</h3>
-                    <a href="register.html">click here!</a>
-
-                </div>
-
-                <div class="flex-col media33">
-                    <img class="img" src="resources/images/team1.jpg" alt="Krzysztof">
-                    <h3>CONFUSED??</h3>
-                    <a href="https://www.google.pl">click here!</a>
-                </div>
+                <table class="students">
+                    <thead class="thead">
+                    <tr>
+                        <th>ID</th>
+                        <th>FIRST NAME</th>
+                        <th>LOGIN</th>
+                        <th>E-MAIL</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tbody">
+                    </tbody>
+                </table>
             </div>
         </article>
         <aside role="complimentary" class="aside">
             <a class="aside-item h-center">Hi</a>
             <a class="aside-item h-center">You're on your manager's page</a>
             <a class="aside-item h-center">Let's have a fun<br>
-                <img id="bird" src="resources/images/bird.png"></a>
+                <img id="bird" src="../resources/images/bird.png"></a>
         </aside>
     </main>
 </div>
 
-<footer>
+<footer class="footer">
     <a>legal information </a>|
     <a>all rights reserved &copy; Natalia Rajska, Stanisław Chynek, Krzysztof Niźnik 2020</a>
 </footer>

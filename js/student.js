@@ -21,9 +21,8 @@ function innerStudents(students) {
         row.innerHTML =
         `<td>${student.id} </td>` +
         `<td>${student.name} </td>` +
-        `<td>${student.surname} </td>` +
         `<td>${student.login} </td>` +
-        `<td>${student.email} </td>;`
+        `<td>${student.email} </td>`;
 
         table.appendChild(row);
     });
