@@ -14,4 +14,6 @@ table {
 th {
     border-style: solid;
     border-color: #e2a5a5;
+    justify-content: space-around;
+    margin-bottom: auto;
 }
