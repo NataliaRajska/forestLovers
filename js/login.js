@@ -4,12 +4,12 @@ const birds = new Audio("resources/birds.mp3");
 function subPages(){
     const username = (document.getElementById("username").value);
     const password = (document.getElementById("password").value);
-    if(username == "creep@gmail.com" && password == "111")
+    if(username == "creep@gmail.com" && password == "11111")
     {
         location.href="creep.html";
-    } else if ((username == "mentor@gmail.com" && password == "222")) {
+    } else if ((username == "mentor@gmail.com" && password == "22222")) {
         location.href="mentor.html";
-    }else if ((username == "codecooler@gmail.com" && password == "333")) {
+    }else if ((username == "codecooler@gmail.com" && password == "33333")) {
         location.href="codecooler.html";
     }
 }
@@ -25,7 +25,7 @@ function myFunction() {
 }
 
 (() => {
-    document.getElementById('submit').addEventListener("click", () => subPages());
+    document.getElementById('confirm').addEventListener("click", () => subPages());
 
 })();
 
