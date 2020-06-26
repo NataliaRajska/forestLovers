@@ -2,7 +2,7 @@ const form = document.querySelector("#register-form");
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
-    const data = `name=${this.name.value}&surname=${this.login.value}&username=${this.login.value}&email=${this.payerEmail.value}&phoneNumber=${this.phone.value}&password=${this.password.value}&password=${this.password.value}`;
+    const data = `name=${this.name.value + " " + this.surname.value}&login=${this.login.value}&email=${this.email.value}&phone_number=${this.phone.value}&password=${this.password2.value}`;
     console.log(data);
     setStudent(data);
 });
@@ -16,5 +16,6 @@ function setStudent(data) {
         })
         .then(function (response) {
             console.log(response);
+            console.log("Account created")
         });
 }
