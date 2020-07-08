@@ -14,7 +14,7 @@ function getMentors() {
 
 
 function innerMentors(mentors) {
-    const table = document.querySelector(".tbody")
+    const table = document.querySelector(".tbody");
     mentors.forEach(mentor => {
         let row = document.createElement("tr");
 
